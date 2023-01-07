@@ -1,1 +1,3 @@
-# Collection_of_useful_programs
+# Collection_of_useful_programs  
+
+На данном репозитории представлены полезные в качестве примера программы.
