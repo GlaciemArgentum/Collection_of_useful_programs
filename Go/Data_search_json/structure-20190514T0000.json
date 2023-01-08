@@ -10,31 +10,31 @@
         "properties":{
             "system_object_id":{
                 "description":"system_object_id",
-                "type":"STRING"
+                "type":"string"
             },"Kod":{
                 "description":"Код позиции",
-                "type":"STRING"
+                "type":"string"
             },"is_deleted":{
                 "description":"is_deleted",
-                "type":"NUMBER"
+                "type":"number"
             },"signature_date":{
                 "description":"signature_date",
-                "type":"STRING"
+                "type":"string"
             },"Nomdescr":{
                 "description":"Описание",
-                "type":"STRING"
+                "type":"string"
             },"global_id":{
                 "description":"global_id",
-                "type":"NUMBER"
+                "type":"number"
             },"Idx":{
                 "description":"Индекс",
-                "type":"STRING"
+                "type":"string"
             },"Razdel":{
                 "description":"Код раздела",
-                "type":"STRING"
+                "type":"string"
             },"Name":{
                 "description":"Наименование",
-                "type":"STRING"
+                "type":"string"
             }
         },"required":["is_deleted","global_id","Idx"]
     }
