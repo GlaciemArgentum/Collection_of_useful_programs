@@ -23,7 +23,7 @@ func main() {
 	CheckErr(err, "Ошибка открытия файла")
 	defer func() {
 		err := file.Close()
-		CheckErr(err, "Ошибка закрытия файла")
+		CheckErr(err, "Ошибка закрытия файла!")
 	}()
 
 	data, err := io.ReadAll(file)
